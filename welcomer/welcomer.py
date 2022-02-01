@@ -8,6 +8,7 @@ from .models import apply_vars, SafeString
 
 
 class Welcomer(commands.Cog):
+    """Give users a warn welcome!"""
     def __init__(self, bot):
         self.bot = bot
         self.db = bot.plugin_db.get_partition(self)
