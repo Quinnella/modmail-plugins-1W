@@ -11,8 +11,8 @@ class Welcomer(commands.Cog):
     """
     Give users a warn welcome!
     
-    *Note : Please contact the dev if
-    you want an embedded version*
+    __Note : Please contact the dev if
+    you want an embedded version__
     """
     def __init__(self, bot):
         self.bot = bot
